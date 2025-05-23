@@ -1,0 +1,18 @@
+{
+  "name": "check-before-commit",
+  "version": "1.0.0",
+  "description": "Prevents Git commits unless a custom checklist is confirmed",
+  "bin": {
+    "check-before-commit": "./bin/cli.js"
+  },
+  "keywords": [
+    "git",
+    "checklist",
+    "husky",
+    "pre-commit",
+    "guard",
+    "blocker"
+  ],
+  "author": "Mayank",
+  "license": "MIT"
+}
