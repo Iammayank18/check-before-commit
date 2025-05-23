@@ -1,9 +1,0 @@
-{
-  "checklist": [
-    "Removed all console.logs",
-    "Followed naming conventions",
-    "No unnecessary or unused code",
-    "Lint and tests are passing"
-  ]
-}
-

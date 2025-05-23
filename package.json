@@ -1,9 +1,18 @@
 {
   "name": "check-before-commit",
-  "version": "1.0.0",
+  "version": "1.0.1",
+   "main": "bin/cli.js",
   "description": "Prevents Git commits unless a custom checklist is confirmed",
   "bin": {
     "check-before-commit": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/Iammayank18/check-before-commit/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iammayank18/check-before-commit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Iammayank18/check-before-commit/issues"
   },
   "keywords": [
     "git",

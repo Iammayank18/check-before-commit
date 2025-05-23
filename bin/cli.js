@@ -12,10 +12,10 @@ const fs = require("fs");
 const path = require("path");
 const readline = require("readline");
 
-const checklistPath = path.resolve(process.cwd(), "checklist.json");
+const checklistPath = path.resolve(process.cwd(), "commit-checklist.json");
 
 if (!fs.existsSync(checklistPath)) {
-  console.error(`${RED}❌ checklist.json not found in project root.${RESET}`);
+  console.error(`${RED}❌ commit-checklist.json not found in project root.${RESET}`);
   console.log(`${YELLOW}Please create one with a checklist array, like:${RESET}\n`);
   console.log(`${CYAN}{
     "checklist": [
@@ -38,7 +38,7 @@ try {
     throw new Error("Checklist must be a non-empty array.");
   }
 } catch (err) {
-  console.error("❌ Error reading checklist.json:", err.message);
+  console.error("❌ Error reading commit-checklist.json:", err.message);
   process.exit(1);
 }
 
